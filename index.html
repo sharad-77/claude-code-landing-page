@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PTE Course — Your Study Workspace</title>
+<meta name="description" content="Live classes, self-study lessons and one-on-one sessions — track every PTE skill in one workspace." />
+<link rel="icon" href="data:," />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="no-js">
+
+<!-- ============ HEADER ============ -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-links">
+      <a href="#study-tools">Study Tools</a>
+      <a href="#resources">Resources</a>
+      <a href="#community">Community</a>
+    </div>
+    <div class="topbar-streak">
+      <span aria-hidden="true">🔥</span> 12-day streak
+    </div>
+  </div>
+</div>
+
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="#" class="logo">
+      <span class="logo-mark">P</span>
+      PTE&nbsp;Course
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#study-tools" class="is-active">Dashboard</a>
+      <a href="#mock-tests">Mock Tests</a>
+      <a href="#resources">Resources</a>
+      <a href="#guides">Guides</a>
+      <a href="#community">Community</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/></svg></button>
+      <button class="icon-btn" aria-label="Notifications"><span class="dot"></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9" stroke-linecap="round" stroke-linejoin="round"/><path d="M13.7 21a2 2 0 0 1-3.4 0" stroke-linecap="round"/></svg></button>
+      <button class="avatar" aria-label="Account">MI</button>
+      <button class="nav-toggle" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<main class="container page-grid">
+  <!-- ============ MAIN COLUMN ============ -->
+  <div class="main-col">
+
+    <!-- Hero / promo banner -->
+    <section class="hero" data-animate data-anim="fade-up">
+      <div class="hero-blob" aria-hidden="true"></div>
+      <div class="hero-blob-2" aria-hidden="true"></div>
+      <div class="hero-content">
+        <span class="hero-tag">New Update</span>
+        <h1>PTE Course — New Feature!!</h1>
+        <p>Access Live Classes, Self-Study Lessons &amp; One-on-One Sessions.</p>
+        <a href="#study-tools" class="btn btn-primary">
+          Explore Now
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <div class="dots" role="tablist" aria-label="Promo slides">
+          <button class="is-active" role="tab" aria-selected="true" aria-label="Slide 1"></button>
+          <button role="tab" aria-selected="false" aria-label="Slide 2"></button>
+          <button role="tab" aria-selected="false" aria-label="Slide 3"></button>
+        </div>
+      </div>
+      <div class="hero-pills">
+        <div class="hero-pill">
+          <span class="hero-pill-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 10l5-3v10l-5-3" stroke-linejoin="round"/><rect x="2" y="6" width="13" height="12" rx="2"/></svg></span>
+          <span>Live Classes</span>
+        </div>
+        <div class="hero-pill">
+          <span class="hero-pill-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+          <span>Self-Study</span>
+        </div>
+        <div class="hero-pill">
+          <span class="hero-pill-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7" stroke-linecap="round"/></svg></span>
+          <span>One-on-One</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter / search bar -->
+    <section class="filter-bar" data-animate data-anim="fade-up">
+      <div class="search-field">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3" stroke-linecap="round"/></svg>
+        <input type="search" placeholder="Search lessons, mock tests, guides…" aria-label="Search" />
+      </div>
+      <div class="filter-tabs" role="tablist" aria-label="Skill filter">
+        <button class="is-active" role="tab" aria-selected="true">Overview</button>
+        <button role="tab" aria-selected="false">Speaking</button>
+        <button role="tab" aria-selected="false">Writing</button>
+        <button role="tab" aria-selected="false">Reading</button>
+        <button role="tab" aria-selected="false">Listening</button>
+      </div>
+    </section>
+
+    <!-- Stats row -->
+    <section class="stat-grid" id="statGrid">
+      <div class="stat-card" data-animate data-anim="fade-up">
+        <span class="stat-label">Prediction Questions</span>
+        <span class="stat-value" data-count="1441">0</span>
+        <span class="pill pill-up">↑ 4%</span>
+      </div>
+      <div class="stat-card" data-animate data-anim="fade-up">
+        <span class="stat-label">Speaking Questions</span>
+        <span class="stat-value" data-count="8862">0</span>
+        <span class="pill pill-up">↑ 4%</span>
+      </div>
+      <div class="stat-card" data-animate data-anim="fade-up">
+        <span class="stat-label">Writing Questions</span>
+        <span class="stat-value" data-count="650">0</span>
+        <span class="pill pill-up">↑ 4%</span>
+      </div>
+      <div class="stat-card" data-animate data-anim="fade-up">
+        <span class="stat-label">Reading Questions</span>
+        <span class="stat-value" data-count="3250">0</span>
+        <span class="pill pill-up">↑ 4%</span>
+      </div>
+      <div class="stat-card" data-animate data-anim="fade-up">
+        <span class="stat-label">Listening Questions</span>
+        <span class="stat-value" data-count="4320">0</span>
+        <span class="pill pill-up">↑ 4%</span>
+      </div>
+    </section>
+
+    <!-- Study Tools — skill cards -->
+    <section id="study-tools">
+      <div class="section-head" data-animate data-anim="fade-up">
+        <h2>Study Tools</h2>
+        <a href="#" class="link-more">View All <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card" data-skill="speaking" data-animate data-anim="fade-up">
+          <div class="skill-card-top">
+            <span class="skill-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0M12 18v3" stroke-linecap="round"/></svg></span>
+            <span class="skill-timer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round"/></svg>04:12</span>
+          </div>
+          <h3>Speaking</h3>
+          <p class="skill-meta">Que Practiced: 100</p>
+          <div class="skill-score"><span>Average Score</span><b>60/90</b></div>
+          <div class="progress-track"><div class="progress-fill" data-progress="67"></div></div>
+        </article>
+        <article class="skill-card" data-skill="writing" data-animate data-anim="fade-up">
+          <div class="skill-card-top">
+            <span class="skill-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9" stroke-linecap="round"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></span>
+            <span class="skill-timer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round"/></svg>04:12</span>
+          </div>
+          <h3>Writing</h3>
+          <p class="skill-meta">Que Practiced: 100</p>
+          <div class="skill-score"><span>Average Score</span><b>60/90</b></div>
+          <div class="progress-track"><div class="progress-fill" data-progress="67"></div></div>
+        </article>
+        <article class="skill-card" data-skill="reading" data-animate data-anim="fade-up">
+          <div class="skill-card-top">
+            <span class="skill-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+            <span class="skill-timer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round"/></svg>04:12</span>
+          </div>
+          <h3>Reading</h3>
+          <p class="skill-meta">Que Practiced: 100</p>
+          <div class="skill-score"><span>Average Score</span><b>60/90</b></div>
+          <div class="progress-track"><div class="progress-fill" data-progress="67"></div></div>
+        </article>
+        <article class="skill-card" data-skill="listening" data-animate data-anim="fade-up">
+          <div class="skill-card-top">
+            <span class="skill-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 14v-2a9 9 0 0 1 18 0v2" stroke-linecap="round"/><path d="M21 14v3a2 2 0 0 1-2 2h-1v-6h1a2 2 0 0 1 2 2zM3 14v3a2 2 0 0 0 2 2h1v-6H5a2 2 0 0 0-2 2z"/></svg></span>
+            <span class="skill-timer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round"/></svg>04:12</span>
+          </div>
+          <h3>Listening</h3>
+          <p class="skill-meta">Que Practiced: 100</p>
+          <div class="skill-score"><span>Average Score</span><b>60/90</b></div>
+          <div class="progress-track"><div class="progress-fill" data-progress="67"></div></div>
+        </article>
+      </div>
+      <div class="skill-summary">
+        <div class="summary-card" data-animate data-anim="fade-up"><span class="label">Average Score</span><span class="value">80/90</span></div>
+        <div class="summary-card" data-animate data-anim="fade-up"><span class="label">Average Practice Time</span><span class="value">4:12</span></div>
+      </div>
+    </section>
+
+    <!-- Practice type progress list -->
+    <section>
+      <div class="section-head" data-animate data-anim="fade-up">
+        <h2>Practice by Question Type</h2>
+        <span class="meta">Last updated on 04 Feb, 2025</span>
+      </div>
+      <div class="progress-list">
+        <div class="progress-row" data-animate data-anim="fade-right">
+          <span class="name">Read Aloud</span>
+          <div class="progress-track"><div class="progress-fill" data-progress="0.06"></div></div>
+          <span class="frac">1/1541</span>
+        </div>
+        <div class="progress-row" data-animate data-anim="fade-right">
+          <span class="name">Describe Image</span>
+          <div class="progress-track"><div class="progress-fill" data-progress="0.06"></div></div>
+          <span class="frac">1/1541</span>
+        </div>
+        <div class="progress-row" data-animate data-anim="fade-right">
+          <span class="name">Re-Tell Lecture</span>
+          <div class="progress-track"><div class="progress-fill" data-progress="0.06"></div></div>
+          <span class="frac">1/1541</span>
+        </div>
+        <div class="progress-row" data-animate data-anim="fade-right">
+          <span class="name">Answer Short Question</span>
+          <div class="progress-track"><div class="progress-fill" data-progress="0.06"></div></div>
+          <span class="frac">1/1541</span>
+        </div>
+        <div class="progress-row" data-animate data-anim="fade-right">
+          <span class="name">Respond to a Situation</span>
+          <div class="progress-track"><div class="progress-fill" data-progress="0.06"></div></div>
+          <span class="frac">1/1541</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mock test cards -->
+    <section id="mock-tests">
+      <div class="section-head" data-animate data-anim="fade-up"><h2>Mock Tests</h2></div>
+      <div class="mock-grid">
+        <article class="mock-card" data-animate data-anim="fade-up">
+          <div class="mock-card-top">
+            <span class="mock-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke-linecap="round"/></svg></span>
+            <h3>Full Mock Test</h3>
+          </div>
+          <div class="progress-track"><div class="progress-fill" data-progress="0"></div></div>
+          <span class="frac">0/148 completed</span>
+        </article>
+        <article class="mock-card" data-animate data-anim="fade-up">
+          <div class="mock-card-top">
+            <span class="mock-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16" stroke-linecap="round"/></svg></span>
+            <h3>Sectional Mock Test</h3>
+          </div>
+          <div class="progress-track"><div class="progress-fill" data-progress="0"></div></div>
+          <span class="frac">0/148 completed</span>
+        </article>
+        <article class="mock-card" data-animate data-anim="fade-up">
+          <div class="mock-card-top">
+            <span class="mock-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 1h6M12 1v3" stroke-linecap="round"/></svg></span>
+            <h3>Timed Mock Test</h3>
+          </div>
+          <div class="progress-track"><div class="progress-fill" data-progress="0"></div></div>
+          <span class="frac">0/148 completed</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Resource icon grid -->
+    <section id="resources">
+      <div class="section-head" data-animate data-anim="fade-up"><h2>Resources</h2></div>
+      <div class="tile-grid">
+        <a class="tile" href="#" data-animate data-anim="fade-up"><span class="tile-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5z"/></svg></span><span>Study Files</span></a>
+        <a class="tile" href="#" data-animate data-anim="fade-up"><span class="tile-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="14" height="14" rx="2"/><path d="M21 8l-4 3 4 3z"/></svg></span><span>Strategy Videos</span></a>
+        <a class="tile" href="#" data-animate data-anim="fade-up"><span class="tile-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v4H4zM4 12h10v8H4zM17 12h3v8h-3z"/></svg></span><span>Vocab Bank</span></a>
+        <a class="tile" href="#" data-animate data-anim="fade-up"><span class="tile-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10M18 20V4M6 20v-4" stroke-linecap="round"/></svg></span><span>Score Feedback</span></a>
+        <a class="tile" href="#" data-animate data-anim="fade-up"><span class="tile-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="9"/></svg></span><span>Compatibility</span></a>
+        <a class="tile" href="#" data-animate data-anim="fade-up"><span class="tile-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke-linecap="round"/></svg></span><span>Full Mock Test</span></a>
+        <a class="tile" href="#" data-animate data-anim="fade-up"><span class="tile-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16" stroke-linecap="round"/></svg></span><span>Sectional Mock Test</span></a>
+        <a class="tile" href="#" data-animate data-anim="fade-up"><span class="tile-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 1h6M12 1v3" stroke-linecap="round"/></svg></span><span>Timed Mock Test</span></a>
+      </div>
+    </section>
+
+    <!-- Article / blog grid -->
+    <section>
+      <div class="section-head" data-animate data-anim="fade-up">
+        <h2>Latest from the Blog</h2>
+        <a href="#" class="link-more">View All <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+      <div class="article-grid" id="articleGrid">
+        <!-- populated identically via markup for no-JS baseline -->
+        <article class="article-card" data-animate data-anim="fade-up">
+          <div class="article-thumb" style="--accent-a: var(--aqua-light); --accent-b: var(--blue-light);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5z"/></svg></div>
+          <div class="article-body">
+            <h3>PTE Core vs Academic: How the Scoring Differs in Each Test</h3>
+            <span class="article-meta">11 days ago</span>
+          </div>
+        </article>
+        <article class="article-card" data-animate data-anim="fade-up">
+          <div class="article-thumb" style="--accent-a: var(--speaking-light); --accent-b: var(--writing-light);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0"/></svg></div>
+          <div class="article-body">
+            <h3>Stop Losing Marks in PTE Read Aloud — Easy Techniques for Core &amp; Academic</h3>
+            <span class="article-meta">11 days ago</span>
+          </div>
+        </article>
+        <article class="article-card" data-animate data-anim="fade-up">
+          <div class="article-thumb" style="--accent-a: var(--reading-light); --accent-b: var(--aqua-light);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0"/></svg></div>
+          <div class="article-body">
+            <h3>Stop Losing Marks in PTE Read Aloud — Easy Techniques for Core &amp; Academic</h3>
+            <span class="article-meta">11 days ago</span>
+          </div>
+        </article>
+        <article class="article-card" data-animate data-anim="fade-up">
+          <div class="article-thumb" style="--accent-a: var(--pink-light); --accent-b: var(--blue-light);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5z"/></svg></div>
+          <div class="article-body">
+            <h3>PTE Core vs Academic: How the Scoring Differs in Each Test</h3>
+            <span class="article-meta">11 days ago</span>
+          </div>
+        </article>
+        <article class="article-card" data-animate data-anim="fade-up">
+          <div class="article-thumb" style="--accent-a: var(--writing-light); --accent-b: var(--reading-light);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0"/></svg></div>
+          <div class="article-body">
+            <h3>Stop Losing Marks in PTE Read Aloud — Easy Techniques for Core &amp; Academic</h3>
+            <span class="article-meta">11 days ago</span>
+          </div>
+        </article>
+        <article class="article-card" data-animate data-anim="fade-up">
+          <div class="article-thumb" style="--accent-a: var(--aqua-light); --accent-b: var(--pink-light);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5z"/></svg></div>
+          <div class="article-body">
+            <h3>PTE Core vs Academic: How the Scoring Differs in Each Test</h3>
+            <span class="article-meta">11 days ago</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Guide tabs + FAQ -->
+    <section id="guides">
+      <div class="section-head" data-animate data-anim="fade-up"><h2>Guides &amp; FAQ</h2></div>
+      <div class="guide-tabs" role="tablist" aria-label="Guide categories">
+        <button class="guide-tab is-active" role="tab" aria-selected="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01" stroke-linecap="round"/></svg>About PTE</button>
+        <button class="guide-tab" role="tab" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/></svg>Speaking Guide</button>
+        <button class="guide-tab" role="tab" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>Writing Guide</button>
+        <button class="guide-tab" role="tab" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5z"/></svg>Reading Guide</button>
+        <button class="guide-tab" role="tab" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/></svg>Listening Guide</button>
+        <button class="guide-tab" role="tab" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10M18 20V4M6 20v-4" stroke-linecap="round"/></svg>Score Guide</button>
+      </div>
+      <div class="faq-list" id="faqList">
+        <div class="faq-item is-open" data-animate data-anim="fade-up">
+          <button class="faq-q" aria-expanded="true">What is PTE Academic?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div class="faq-a"><p>PTE Academic is a computer-based English proficiency test accepted by universities, colleges and immigration authorities worldwide. It measures your Speaking, Writing, Reading and Listening skills in a single two-hour sitting, with AI-scored results delivered within days.</p></div>
+        </div>
+        <div class="faq-item" data-animate data-anim="fade-up">
+          <button class="faq-q" aria-expanded="false">Why are more test takers choosing PTE Academic?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div class="faq-a"><p>Faster results, fully computer-based scoring that removes human bias, and wide acceptance across universities and visa programs make it a popular choice for test takers on a deadline.</p></div>
+        </div>
+        <div class="faq-item" data-animate data-anim="fade-up">
+          <button class="faq-q" aria-expanded="false">What is the Test Format?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div class="faq-a"><p>The test runs roughly two hours and is split into three main parts — Speaking &amp; Writing, Reading, and Listening — each combining several question types that assess integrated skills.</p></div>
+        </div>
+        <div class="faq-item" data-animate data-anim="fade-up">
+          <button class="faq-q" aria-expanded="false">How do I book the test?<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <div class="faq-a"><p>Create a Pearson account, choose a nearby test centre and an available slot, then pay the test fee online. You can reschedule up to a few days before your appointment.</p></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="side-col">
+
+    <div class="side-card side-promo" data-animate data-anim="fade-left">
+      <div class="hero-blob" aria-hidden="true"></div>
+      <div class="side-card-head"><h3>Trending this week</h3></div>
+      <p>New Score Predictor lessons just landed — see how close you are to your target band.</p>
+      <a href="#" class="btn btn-ghost btn-sm">Take a look</a>
+      <div class="dots"><button class="is-active"></button><button></button><button></button></div>
+    </div>
+
+    <div class="side-card" data-animate data-anim="fade-left">
+      <div class="side-card-head">
+        <h3>Your Target</h3>
+        <button class="icon-btn" style="width:32px;height:32px" aria-label="Edit target"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+      </div>
+      <div class="target-value"><span class="score">65+</span><span class="band">24–36 · Vocational</span></div>
+      <p style="font-size:12.5px;color:var(--text-muted);margin-bottom:2px;">Your next attempt starts in</p>
+      <div class="countdown">
+        <div class="unit"><b data-count-unit="d">00</b><span>Day</span></div>
+        <div class="unit"><b data-count-unit="h">00</b><span>Hr</span></div>
+        <div class="unit"><b data-count-unit="m">00</b><span>Min</span></div>
+        <div class="unit"><b data-count-unit="s">00</b><span>Sec</span></div>
+      </div>
+    </div>
+
+    <div class="promo-image" data-animate data-anim="fade-left">
+      <h4>Book a 1‑on‑1 mock interview with a trainer</h4>
+      <a href="#" class="btn btn-sm">Explore Now</a>
+    </div>
+
+    <div class="side-card" data-animate data-anim="fade-left">
+      <div class="streak-top">
+        <div class="streak-pill">
+          <span class="flame" aria-hidden="true">🔥</span>
+          <div><b>Best Streak: 15 days</b><span>All-time record</span></div>
+        </div>
+      </div>
+      <div class="streak-top" style="margin-top:-6px;">
+        <div class="streak-pill is-target">
+          <span class="flame" aria-hidden="true">🎯</span>
+          <div><b>Today's Target: 20/40</b><span>12-Days Active Streak</span></div>
+        </div>
+        <span class="streak-tooltip">
+          <span class="info-dot">i</span>
+          <span class="bubble">A streak counts the number of consecutive days you practice.</span>
+        </span>
+      </div>
+
+      <div class="calendar-head"><b>January 2025</b><button class="icon-btn" style="width:28px;height:28px"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+      <div class="calendar-dow"><span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span></div>
+      <div class="calendar-grid" id="calendarGrid">
+        <button class="is-empty">29</button><button class="is-empty">30</button><button class="is-empty">31</button>
+        <button class="is-completed">1</button><button class="is-completed">2</button><button class="is-pending">3</button><button>4</button>
+        <button>5</button><button class="is-completed">6</button><button class="is-completed">7</button><button class="is-completed">8</button><button class="is-pending">9</button><button>10</button><button>11</button>
+        <button class="is-completed">12</button><button class="is-completed">13</button><button class="is-completed">14</button><button class="is-pending">15</button><button>16</button><button>17</button><button>18</button>
+        <button class="is-completed">19</button><button class="is-completed">20</button><button class="is-pending">21</button><button>22</button><button>23</button><button>24</button><button>25</button>
+      </div>
+      <div class="calendar-legend">
+        <span><i class="dot-pending"></i>Pending</span>
+        <span><i class="dot-completed"></i>Completed</span>
+        <span><i class="dot-empty"></i>Not opened</span>
+      </div>
+      <a href="#" class="link-more" style="font-size:12px;">View more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+
+      <div class="mini-tabs" role="tablist" aria-label="Practice type">
+        <button class="is-active" role="tab" aria-selected="true">Speaking</button>
+        <button role="tab" aria-selected="false">Reading</button>
+        <button role="tab" aria-selected="false">Listening</button>
+        <button role="tab" aria-selected="false">Writing</button>
+      </div>
+      <div class="mini-progress-list">
+        <div class="mini-progress-row">
+          <div class="top"><span>Full Mock Test</span><span class="frac">0/148</span></div>
+          <div class="progress-track"><div class="progress-fill" data-progress="0"></div></div>
+        </div>
+        <div class="mini-progress-row">
+          <div class="top"><span>Re-Tell Lecture</span><span class="frac">0/148</span></div>
+          <div class="progress-track"><div class="progress-fill" data-progress="0"></div></div>
+        </div>
+        <div class="mini-progress-row">
+          <div class="top"><span>Read Aloud</span><span class="frac">0/148</span></div>
+          <div class="progress-track"><div class="progress-fill" data-progress="0"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-card pitch-widget" data-animate data-anim="fade-left">
+      <div class="side-card-head" style="text-align:left"><h3>Pitch Check</h3></div>
+      <div class="pitch-ring-wrap">
+        <div class="pitch-ring r1"></div>
+        <div class="pitch-pulse" data-pulse></div>
+        <div class="pitch-pulse" data-pulse></div>
+        <div class="pitch-center"><b data-hz>—</b><span>HZ</span></div>
+      </div>
+      <p>Click to measure your exact pitch in real-time.</p>
+      <button class="btn btn-primary btn-sm" id="pitchBtn">Start Measuring</button>
+    </div>
+
+    <div class="side-card speech-widget" id="community">
+      <div class="side-card-head" style="text-align:left"><h3>Practice Test</h3></div>
+      <div class="speech-tabs" role="tablist" aria-label="Test type">
+        <button class="is-active" role="tab" aria-selected="true">Speech Test</button>
+        <button role="tab" aria-selected="false">Listening Test</button>
+      </div>
+      <div class="mic-wrap">
+        <div class="mic-ring" data-pulse></div>
+        <div class="mic-ring" data-pulse></div>
+        <button class="mic-button" id="micBtn" aria-label="Start recording">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3z"/><path d="M19 11a7 7 0 0 1-14 0M12 18v3" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <p class="hint">Click the microphone to start speaking.</p>
+      <div class="response-panel">
+        <div class="label">Your Response</div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+
+    <div class="side-card" data-animate data-anim="fade-left">
+      <div class="side-card-head"><h3>Community Q&amp;A</h3><a href="#" class="link-more">View All</a></div>
+
+      <div class="post">
+        <span class="post-avatar m">M</span>
+        <div class="post-body">
+          <p class="post-name">Maya I.</p>
+          <p class="post-text">Has anyone here used the Score Predictor recently? Are the predictions actually helpful for the real test — would really appreciate honest feedback before I register.</p>
+          <p class="post-time">2 hours ago</p>
+          <div class="post-replies">
+            <div class="post">
+              <span class="post-avatar a">A</span>
+              <div class="post-body">
+                <p class="post-name">Arjun P.</p>
+                <p class="post-text">Used it before my last attempt — it landed within 2 points of my actual score. Worth doing a few days before test day.</p>
+                <p class="post-time">1 hour ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="post">
+        <span class="post-avatar m">M</span>
+        <div class="post-body">
+          <p class="post-name">Meera S.</p>
+          <p class="post-text">Has anyone here used the mock interview feature? Curious how close it feels to a real one-on-one session.</p>
+          <p class="post-time">5 hours ago</p>
+          <div class="post-replies">
+            <div class="post">
+              <span class="post-avatar a">A</span>
+              <div class="post-body">
+                <p class="post-name">Aisha K.</p>
+                <p class="post-text">Surprisingly close — the trainer gave me feedback I could apply the same day.</p>
+                <p class="post-time">4 hours ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-card" data-animate data-anim="fade-left">
+      <div class="side-card-head"><h3>Follow us</h3></div>
+      <div class="social-row">
+        <a href="#" aria-label="Twitter / X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7l-5.5-7-6.3 7H1.4l8.2-9.3L1 2h7.2l5 6.6L18.9 2zm-1.2 18h1.7L7.4 4H5.6l12.1 16z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3.2h-3.1V7.7c0-.9.3-1.6 1.7-1.6h1.6V3.2C15.9 3.1 14.9 3 13.7 3c-2.5 0-4.2 1.5-4.2 4.4v2.4H6.9v3.2h2.6v8h4z"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l6 3-6 3z" fill="currentColor" stroke="none"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2 3.77-2 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.3-.02-3-1.83-3-1.83 0-2.1 1.43-2.1 2.9V21H9z"/></svg></a>
+        <a href="#" aria-label="Discord"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.5 5.5A18 18 0 0 0 15.6 4l-.4.8a13 13 0 0 1 3.4 1.2c-2.9-1.4-6.9-1.4-9.7 0A13 13 0 0 1 12.3 4.8L11.9 4A18 18 0 0 0 8 5.5C5.7 9 5 12.4 5.3 15.7a18 18 0 0 0 4 2l.9-1.4c-.7-.3-1.4-.6-2-1l.5-.4c3.5 1.6 7.2 1.6 10.6 0l.5.4c-.6.4-1.3.7-2 1l.9 1.4a18 18 0 0 0 4-2c.4-4-.6-7.3-3.2-10.2zM10 13.6c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7zm5 0c-.8 0-1.5-.8-1.5-1.7s.7-1.7 1.5-1.7 1.5.8 1.5 1.7-.7 1.7-1.5 1.7z"/></svg></a>
+        <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 3h3c.1 1.9 1.4 3.4 3.5 3.7v3c-1.3 0-2.5-.4-3.5-1.1v6.6a5.8 5.8 0 1 1-5.8-5.8c.3 0 .6 0 .9.1v3.1a2.7 2.7 0 1 0 1.9 2.6z"/></svg></a>
+        <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.8 14.3c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1a15 15 0 0 1-4.9-3.1 8.6 8.6 0 0 1-2-3c-.3-.7-.5-1.6.3-2.3l.5-.5c.2-.2.4-.3.6.1l1 1.9c.1.2.1.4 0 .6l-.5.6c-.2.2-.2.4 0 .6.4.7 1 1.3 1.6 1.8.6.5 1.3.9 2 1.2.2.1.4.1.6-.1l.6-.6c.2-.2.4-.2.6-.1l1.8 1c.2.1.4.2.3.5z"/></svg></a>
+      </div>
+    </div>
+  </aside>
+</main>
+
+<!-- ============ BOTTOM CTA BANNER ============ -->
+<section class="container" style="padding-bottom:0;">
+  <div class="cta-banner" data-animate data-anim="fade-up">
+    <div class="cta-bubble" style="width:150px;height:150px;top:-50px;right:80px;"></div>
+    <div class="cta-bubble" style="width:90px;height:90px;bottom:-30px;left:20%;"></div>
+    <div class="cta-bubble" style="width:60px;height:60px;top:30px;left:40%;"></div>
+
+    <div class="cta-content">
+      <h2>Step into your PTE Course workspace</h2>
+      <p>Live classes, self-study lessons and one-on-one sessions with trainers — all tracked in one place. You've already completed 78% of your plan.</p>
+      <a href="#study-tools" class="btn btn-primary">
+        Explore Now
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+
+      <div class="cta-stats">
+        <div class="cta-stat"><b data-count="83">0</b><span>Hours Spent Learning</span></div>
+        <div class="cta-stat"><b data-count="17">0</b><span>Lessons Completed</span></div>
+      </div>
+
+      <div class="cta-community">
+        <div class="avatar-stack"><span></span><span></span><span></span><span></span></div>
+        <p>Join 12,000+ learners in the community</p>
+      </div>
+    </div>
+
+    <div class="cta-side">
+      <div class="ring-wrap">
+        <svg viewBox="0 0 168 168">
+          <circle class="ring-track" cx="84" cy="84" r="73.5"/>
+          <circle class="ring-fill" id="ctaRing" cx="84" cy="84" r="73.5" data-progress="78"/>
+        </svg>
+        <div class="ring-label"><b>78%</b><span>COMPLETE</span></div>
+      </div>
+      <div class="cta-illustration">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4H6.5A2.5 2.5 0 0 0 4 6.5z"/><path d="M8 8h8M8 11h6"/></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo" style="color:#fff;"><span class="logo-mark">P</span>PTE&nbsp;Course</a>
+        <p>Everything you need to prepare for PTE Academic — live classes, self-study lessons and one-on-one trainer sessions in a single workspace.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Study Tools</h4>
+        <ul>
+          <li><a href="#study-tools">Speaking</a></li>
+          <li><a href="#study-tools">Writing</a></li>
+          <li><a href="#study-tools">Reading</a></li>
+          <li><a href="#study-tools">Listening</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#mock-tests">Mock Tests</a></li>
+          <li><a href="#resources">Study Files</a></li>
+          <li><a href="#guides">Guides &amp; FAQ</a></li>
+          <li><a href="#community">Community</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 PTE Course. All rights reserved.</span>
+      <div class="footer-social">
+        <a href="#" aria-label="Twitter / X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7l-5.5-7-6.3 7H1.4l8.2-9.3L1 2h7.2l5 6.6L18.9 2z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l6 3-6 3z" fill="currentColor" stroke="none"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
