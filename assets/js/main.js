@@ -291,6 +291,27 @@ function initButtonPress() {
   });
 }
 
+/* ---------------------------------------------------------
+   Hover lift — buttons and tab pills rise and scale up
+   slightly on hover/focus, settling back on leave/blur.
+   --------------------------------------------------------- */
+function initHoverLift() {
+  if (reduceMotion) return;
+  const targets = document.querySelectorAll(
+    '.btn, .icon-btn, .filter-tabs button, .guide-tab, .mini-tabs button, .speech-tabs button'
+  );
+  const HOVER = { y: -3, scale: 1.035 };
+  const REST = { y: 0, scale: 1 };
+  targets.forEach((el) => {
+    const raise = () => animate(el, HOVER, { duration: 0.25, easing: [0.16, 1, 0.3, 1] });
+    const settle = () => animate(el, REST, { duration: 0.3, easing: [0.16, 1, 0.3, 1] });
+    el.addEventListener('pointerenter', raise);
+    el.addEventListener('pointerleave', settle);
+    el.addEventListener('focus', raise);
+    el.addEventListener('blur', settle);
+  });
+}
+
 initHeader();
 initReveal();
 initProgressBars();
@@ -306,3 +327,4 @@ initAccordion();
 initPitchWidget();
 initMicWidget();
 initButtonPress();
+initHoverLift();
